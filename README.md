@@ -14,6 +14,10 @@ brew install nodejs npm
 # 下载node依赖库
 npm install log4js socket.io express serve-index
 
+# 添加证书
+mkdir cert
+...
+
 # 启动服务端
 node server.js
 
